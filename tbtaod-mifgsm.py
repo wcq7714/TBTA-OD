@@ -370,7 +370,7 @@ def main():
         # only keep one label
         target_clean = target[victim_idx,:][None]
 
-        target = target_clean
+        # target = target_clean
 
         # save target to np
         np.save(target_root/f"{im_id}_target", target)
