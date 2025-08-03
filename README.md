@@ -31,4 +31,4 @@ bash get_coco.sh
 
 3. run ```python tbtaod.py``` to perform PGD based attacks on object detection.
 
-4. run ```python tbtaod-mifgsm.py``` to perform PGD based attacks on object detection.
+4. run ```python tbtaod-mifgsm.py``` to perform MI-FGSM based attacks on object detection.
