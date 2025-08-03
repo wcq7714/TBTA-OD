@@ -29,6 +29,8 @@ bash get_coco.sh
 
 2. run ```python mmdet_model_info.py``` to download pre-trained models from MMCV.
 
-3. run ```python tbtaod.py``` to perform PGD based attacks on object detection.
+3. Download 'CompVis/stable-diffusion-v1-4' model.
 
-4. run ```python tbtaod-mifgsm.py``` to perform MI-FGSM based attacks on object detection.
+4. run ```python tbtaod.py``` to perform PGD based attacks on object detection.
+
+5. run ```python tbtaod-mifgsm.py``` to perform MI-FGSM based attacks on object detection.
